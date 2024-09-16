@@ -8,6 +8,10 @@ function findLargestNumber(arr){
         }
     }
     console.log(big);
+
+    //With inbuild methods
+    arr.sort((a,b)=>a-b).reverse();
+    console.log(arr[0]);
 }
 
 //Test Case
